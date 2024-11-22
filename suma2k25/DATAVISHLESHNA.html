@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="DS ICON.png" type="image/x-icon">
+    <title>EDatum | DATA VISHLESHNA</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <link rel="stylesheet" href="DATAVISHLESHNA.css">
+
+    <nav>
+        <div class="asd">
+            
+            <h1>EDATUM</h1>
+            
+        </div>
+           
+       
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+         <div class="dadadadadad">
+          <a href="index.html">  <li> <button class="login-button">  Contact Us </button></li> </a>
+         </div>
+           
+        </ul>
+       
+
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+    
+    hamburger.addEventListener('click', ()=>{
+       //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+    
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+        </script>
+    </nav>
+    <div class="Eventssssss">
+        <div class="EventsList">
+            
+            <div class="EventPic">
+                <h3>01</h3>
+                <img src="Data Vishleshana.jpg" alt="">
+            </div>
+           
+            <div class="EventDetails">
+                <h1>DATA VISHLESHNA</h1>
+                <p>
+                   <b><u> SUMMARY: </u>  </b>  <br>
+Get ready for an exciting and innovative quiz experience where you can showcase your data science prowess. Join us in this thrilling journey to challenge your knowledge, learn new concepts, and connect with fellow data enthusiasts. Let's dive into the world of data and analytics together. Happy quizzing!
+<br>
+<br> <b><u>  DESCRIPTION:</u></b><br>
+Welcome to the Tech Quiz!
+Tech quiz is like a brain workout! 🧠🔧 Test your IT smarts with questions on coding, gadgets, and all things geeky. It’s a fun way to flex those tech muscles! 🚀
+<br><br> <b><u>  INSTRUCTIONS:</u></b>
+<br>1.Three Levels: The event consists of three exciting levels.
+
+<br>2.Questions and Points: Each level contains a specific number of questions, with each question carrying points that you can earn.
+
+<br>3.Qualifying Points: Participants must reach a certain threshold of points to qualify for the next level..
+
+<br>4.Time Limit: ⏰ Time is limited for each level based on the number of questions. Use it wisely!
+
+<br>Content Focus: Expect most questions to revolve around data analysis, including datasets, pictorial charts 📊, and informative paragraphs.
+
+<br>Automatic Submission: The quiz will automatically submit once the time limit is reached.
+
+Get ready to dive deep into the world of technology and showcase your prowess. Good luck, and may the best techie win!
+
+                </p>
+                <div class="Registration">
+                    <a href="" class="button">  Register Now</a>
+                    
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+</html>
